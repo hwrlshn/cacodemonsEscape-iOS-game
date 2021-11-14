@@ -56,6 +56,33 @@ class SignUpController: UIViewController {
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillDisappear), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillAppear), name: UIResponder.keyboardWillShowNotification, object: nil)
+    }
+
+    @objc func keyboardWillAppear() {
+        if view.frame.origin.y == 0 {
+            view.transform = CGAffineTransform(translationX: view.frame.origin.x, y: view.frame.origin.y - 50)
+        }
+    }
+
+    @objc func keyboardWillDisappear() {
+        if view.frame.origin.y == -50 {
+            view.transform = CGAffineTransform(translationX: view.frame.origin.x, y: view.frame.origin.y + 50)
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        NotificationCenter.default.removeObserver(self)
+    }
+    
+    @IBAction func actionHideKeyboard(_ sender: Any) {
+        view.endEditing(true)
+    }
+    
     @IBAction func actionSignUp(_ sender: Any) {
         let alert = UIAlertController(title: "Sign Up", message: "Create profile?", preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { [self]isYes in

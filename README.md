@@ -20,7 +20,7 @@ A mini-game which you need to escape from the cursed Doomguys 👾
 
 ### Leaderboard
 <p align="left">
-  <img height="400" alt="Screenshot 2021-09-29 at 00 21 27" src="https://user-images.githubusercontent.com/44808549/138189597-c3b3804d-c3c4-44fd-8b3e-da0657b34829.png">
+  <img height="400" alt="Screenshot 2021-09-29 at 00 21 27" src="https://user-images.githubusercontent.com/44808549/141664263-6f9b2ab0-2057-49e8-bd66-444c4bcf6a95.png">
 </p>
 
 ### Gameplay

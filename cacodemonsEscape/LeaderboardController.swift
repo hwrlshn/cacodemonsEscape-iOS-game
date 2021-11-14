@@ -2,42 +2,30 @@ import UIKit
 
 class LeaderboardController: UIViewController {
     var resultsDict: [String: Int] = [:]
-    @IBOutlet weak var resultsLabel: UILabel!
+    
+    @IBOutlet weak var tableview: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchResults()
         config()
     }
     
     func config() {
-        navigationController?.isNavigationBarHidden = true
-        searchResults()
-        resultsLabel.text = ""
-        navigationController?.isNavigationBarHidden = false
-        navigationController?.navigationBar.tintColor = .systemPink
-        setResultList(array: resultsDict)
-        if let unwrapString = resultsLabel.text {
-            resultsLabel.attributedText = setStylishText(
-                string: unwrapString,
-                font: "EternalUI-Regular",
-                size: 25
-            )
-        }
-        resultsLabel.addShadows(radius: 15, opacity: 0.45)
+        configController()
+        configTableView()
     }
     
-    func setResultList(array: [String: Int]) {
-        if resultsDict.count < 5 {
-            resultsLabel.text = "More results needed"
-            resultsLabel.textAlignment = .center
-        } else {
-            for i in 0...4 {
-                let key: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[i].key)"
-                let value: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[i].value)"
-                let splittedKey = key.split(separator: ".")[0]
-                resultsLabel.text?.append(contentsOf: ">>| " + String(splittedKey)+" — " + value + "\n\n\n")
-            }
-        }
+    func configController() {
+        navigationController?.isNavigationBarHidden = true
+        navigationController?.isNavigationBarHidden = false
+        navigationController?.navigationBar.tintColor = .systemPink
+    }
+    
+    func configTableView() {
+        tableview.delegate = self
+        tableview.dataSource = self
+        tableview.backgroundColor = .clear
     }
     
     func searchResults() {
@@ -49,5 +37,23 @@ class LeaderboardController: UIViewController {
                 }
             }
         }
+    }
+    
+}
+
+extension LeaderboardController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableview.dequeueReusableCell(withIdentifier: "reusableCell", for: indexPath)
+        cell.backgroundColor = UIColor.clear
+        let key: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].key)"
+        let value: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].value)"
+        let splittedKey = key.split(separator: ".")[0]
+        cell.textLabel?.text = String(splittedKey)
+        cell.detailTextLabel?.text = value
+        return cell
     }
 }
