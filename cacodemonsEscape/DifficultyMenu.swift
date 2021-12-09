@@ -77,19 +77,19 @@ class DifficultyMenu: UIViewController {
         navigationController?.navigationBar.tintColor = .systemPink
         easy.setAttributedTitle(
             setStylishText(
-                string: "Easy",
+                string: R.string.localizable.difficultyEasy(),
                 font: "EternalUI-Regular",
                 size: 45),
             for: .normal)
         normal.setAttributedTitle(
             setStylishText(
-                string: "Normal",
+                string: R.string.localizable.difficultyNormal(),
                 font: "EternalUI-Regular",
                 size: 45),
             for: .normal)
         hardcore.setAttributedTitle(
             setStylishText(
-                string: "Hardcore",
+                string: R.string.localizable.difficultyHardcore(),
                 font: "EternalUI-Regular",
                 size: 45),
             for: .normal)

@@ -1,0 +1,96 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0qx-ag-OKa"; */
+"0qx-ag-OKa.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1AN-QO-WMV"; */
+"1AN-QO-WMV.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Developed by\nhttps://github.com/Grafonsky"; ObjectID = "2Ns-lp-lc6"; */
+"2Ns-lp-lc6.text" = "Developed by\nhttps://github.com/Grafonsky";
+
+/* Class = "UIButton"; normalTitle = "Leaderboard"; ObjectID = "3lJ-wI-yP2"; */
+"3lJ-wI-yP2.normalTitle" = "Leaderboard";
+
+/* Class = "UILabel"; text = "Score: 0"; ObjectID = "3zZ-HV-tQQ"; */
+"3zZ-HV-tQQ.text" = "Score: 0";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4nD-Vn-0Ok"; */
+"4nD-Vn-0Ok.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "NICKNAME"; ObjectID = "69q-9m-p7h"; */
+"69q-9m-p7h.text" = "NICKNAME";
+
+/* Class = "UILabel"; text = "PROFILE PIC"; ObjectID = "FcD-F4-uAK"; */
+"FcD-F4-uAK.text" = "PROFILE PIC";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Fld-NI-Gn4"; */
+"Fld-NI-Gn4.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GaT-To-ndj"; */
+"GaT-To-ndj.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "I5P-g6-uhf"; */
+"I5P-g6-uhf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Lqz-DD-3Dt"; */
+"Lqz-DD-3Dt.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Player#1"; ObjectID = "N2n-ry-7cS"; */
+"N2n-ry-7cS.configuration.title" = "Player#1";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "N2n-ry-7cS"; */
+"N2n-ry-7cS.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PBg-zZ-RY1"; */
+"PBg-zZ-RY1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "PfC-Nd-xxI"; */
+"PfC-Nd-xxI.text" = "Title";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "Qbl-8J-nJT"; */
+"Qbl-8J-nJT.text" = "Detail";
+
+/* Class = "UIButton"; normalTitle = "Hardcore"; ObjectID = "S42-n1-beh"; */
+"S42-n1-beh.normalTitle" = "Hardcore";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "TGN-xK-aeY"; */
+"TGN-xK-aeY.text" = "NAME";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "UjI-DX-pzU"; */
+"UjI-DX-pzU.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "UjI-DX-pzU"; */
+"UjI-DX-pzU.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Player#2"; ObjectID = "WRg-2c-gxl"; */
+"WRg-2c-gxl.configuration.title" = "Player#2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WRg-2c-gxl"; */
+"WRg-2c-gxl.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "WUQ-xa-C5K"; */
+"WUQ-xa-C5K.configuration.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WUQ-xa-C5K"; */
+"WUQ-xa-C5K.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Player#3"; ObjectID = "ZO6-hq-0XW"; */
+"ZO6-hq-0XW.configuration.title" = "Player#3";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZO6-hq-0XW"; */
+"ZO6-hq-0XW.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Return"; ObjectID = "c3h-vy-9Pd"; */
+"c3h-vy-9Pd.normalTitle" = "Return";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "ddA-C2-ooZ"; */
+"ddA-C2-ooZ.text" = "1000";
+
+/* Class = "UIButton"; normalTitle = "Easy"; ObjectID = "edq-xi-vgp"; */
+"edq-xi-vgp.normalTitle" = "Easy";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "i0t-kl-aFn"; */
+"i0t-kl-aFn.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Normal"; ObjectID = "yap-o3-Xd4"; */
+"yap-o3-Xd4.normalTitle" = "Normal";

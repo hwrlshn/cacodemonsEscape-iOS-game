@@ -23,21 +23,21 @@ class SignUpController: UIViewController {
     func config() {
         if let unwrapString = nameLabel.text {
             nameLabel.attributedText = setStylishText(
-                string: unwrapString,
+                string: R.string.localizable.signUpName(),
                 font: "EternalLogo-Bold",
                 size: 45
             )
         }
         if let unwrapString = profilePicLabel.text {
             profilePicLabel.attributedText = setStylishText(
-                string: unwrapString,
+                string: R.string.localizable.signUpProfilePic(),
                 font: "EternalLogo-Bold",
                 size: 45
             )
         }
         signUpButton.setAttributedTitle(
             setStylishText(
-                string: "Sign Up",
+                string: R.string.localizable.signUpSignUp(),
                 font: "EternalUI-Regular",
                 size: 45),
             for: .normal)
@@ -84,8 +84,12 @@ class SignUpController: UIViewController {
     }
     
     @IBAction func actionSignUp(_ sender: Any) {
-        let alert = UIAlertController(title: "Sign Up", message: "Create profile?", preferredStyle: .actionSheet)
-        alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { [self]isYes in
+        let alert = UIAlertController(
+            title: R.string.localizable.signUpConfirmationSignUp(),
+            message: R.string.localizable.signUpConfirmationCreateProfile(),
+            preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(
+            title: R.string.localizable.signUpConfirmationYes(), style: .default, handler: { [self]isYes in
             self.playerName = self.textField.text
             self.saveToDefault()
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -94,7 +98,7 @@ class SignUpController: UIViewController {
             }
             
         }))
-        alert.addAction(UIAlertAction(title: "No", style: .cancel))
+        alert.addAction(UIAlertAction(title: R.string.localizable.signUpConfirmationNo(), style: .cancel))
         present(alert, animated: true)
     }
     

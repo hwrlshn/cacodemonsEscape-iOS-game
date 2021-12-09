@@ -1,0 +1,24 @@
+"mainMenu.start" = "Start";
+"mainMenu.leaderboard" = "Leaderboard";
+"mainMenu.signUp" = "Sign Up";
+
+"mainMenuWarning.warning" = "Warning";
+"mainMenuWarning.logIn" = "Log in to your account to save the race result";
+"mainMenuWarning.ok" = "Ok";
+
+"signUp.name" = "NAME";
+"signUp.profilePic" = "PROFILE PIC";
+"signUp.signUp" = "Sign Up";
+
+"signUpConfirmation.signUp" = "Sign Up";
+"signUpConfirmation.createProfile" = "Create profile?";
+"signUpConfirmation.yes" = "Yes";
+"signUpConfirmation.no" = "No";
+
+"difficulty.easy" = "Easy";
+"difficulty.normal" = "Normal";
+"difficulty.hardcore" = "Hardcore";
+
+"gameplay.score" = "Score: ";
+"gameOver.score" = "%@";
+"gameOver.return" = "Return";

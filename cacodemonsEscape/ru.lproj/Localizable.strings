@@ -1,0 +1,24 @@
+"mainMenu.start" = "Старт";
+"mainMenu.leaderboard" = "Таблица лидеров";
+"mainMenu.signUp" = "Зарегистрироваться";
+
+"mainMenuWarning.warning" = "Предупреждение";
+"mainMenuWarning.logIn" = "Войдите в свой аккаунт, чтобы сохранить результат гонки";
+"mainMenuWarning.ok" = "Ок";
+
+"signUp.name" = "ИМЯ";
+"signUp.profilePic" = "КАРТИНКА ПРОФИЛЯ";
+"signUp.signUp" = "Зарегистрироваться";
+
+"signUpConfirmation.signUp" = "Регистрация";
+"signUpConfirmation.createProfile" = "Создать профиль?";
+"signUpConfirmation.yes" = "Да";
+"signUpConfirmation.no" = "Нет";
+
+"difficulty.easy" = "Легко";
+"difficulty.normal" = "Нормально";
+"difficulty.hardcore" = "Сложно";
+
+"gameplay.score" = "Очков: ";
+"gameOver.score" = "%@";
+"gameOver.return" = "На главную";

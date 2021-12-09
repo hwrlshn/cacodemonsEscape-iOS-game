@@ -48,9 +48,9 @@ class MainMenu: UIViewController {
         player3Pic.halfCornerRadius()
         currentPlayerAvatar.halfCornerRadius()
         signUp.setAttributedTitle(setStylishText(
-            string: "Sign Up",
+            string: R.string.localizable.mainMenuSignUp(),
             font: "EternalUI-Regular",
-            size: 30), for: .normal)
+            size: 15), for: .normal)
         if let unwrapString = currentPlayerNickname.text {
             currentPlayerNickname.attributedText = setStylishText(
                 string: unwrapString,
@@ -59,11 +59,11 @@ class MainMenu: UIViewController {
             )
         }
         start.setAttributedTitle(setStylishText(
-            string: "Start",
+            string: R.string.localizable.mainMenuStart(),
             font: "EternalUI-Regular",
             size: 45), for: .normal)
         leaderboard.setAttributedTitle(setStylishText(
-            string: "Leaderboard",
+            string: R.string.localizable.mainMenuLeaderboard(),
             font: "EternalUI-Regular",
             size: 45), for: .normal)
         signUpLine.addShadows(radius: 5, opacity: 0.55)
@@ -205,8 +205,11 @@ class MainMenu: UIViewController {
     
     @IBAction func actionStart(_ sender: Any) {
         if currentPlayerText == nil {
-            let alert = UIAlertController(title: "Warning", message: "Log In to your account to save the race result", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            let alert = UIAlertController(
+                title: R.string.localizable.mainMenuWarningWarning(),
+                message: R.string.localizable.mainMenuWarningLogIn(),
+                preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: R.string.localizable.mainMenuWarningOk(), style: .default, handler: nil))
             present(alert, animated: true)
         } else {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)

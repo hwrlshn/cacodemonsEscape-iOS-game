@@ -24,7 +24,7 @@ class GameOverScreen: UIViewController {
     func config() {
         if let unwrapString = labelScoreResult.text {
             labelScoreResult.attributedText = setStylishText(
-                string: unwrapString,
+                string: R.string.localizable.gameOverScore(String(score)),
                 font: "EternalUI-Regular",
                 size: 55
             )
@@ -32,7 +32,7 @@ class GameOverScreen: UIViewController {
         labelScoreResult.text = String(score)
         returnButton.setAttributedTitle(
             setStylishText(
-                string: "Return",
+                string: R.string.localizable.gameOverReturn(),
                 font: "EternalUI-Regular",
                 size: 45),
             for: .normal)

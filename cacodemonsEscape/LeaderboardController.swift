@@ -47,13 +47,18 @@ extension LeaderboardController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableview.dequeueReusableCell(withIdentifier: "reusableCell", for: indexPath)
-        cell.backgroundColor = UIColor.clear
-        let key: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].key)"
-        let value: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].value)"
-        let splittedKey = key.split(separator: ".")[0]
-        cell.textLabel?.text = String(splittedKey)
-        cell.detailTextLabel?.text = value
-        return cell
+        if resultsDict.count >= 5 {
+            print(resultsDict.keys.count)
+
+            let cell = tableview.dequeueReusableCell(withIdentifier: "reusableCell", for: indexPath)
+            cell.backgroundColor = UIColor.clear
+            let key: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].key)"
+            let value: String = "\(Array(resultsDict).sorted {$0.1 > $1.1}[indexPath.row].value)"
+            let splittedKey = key.split(separator: ".")[0]
+            cell.textLabel?.text = String(splittedKey)
+            cell.detailTextLabel?.text = value
+            return cell
+        }
+        return UITableViewCell()
     }
 }

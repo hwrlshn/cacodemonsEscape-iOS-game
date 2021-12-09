@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00F96EAE982FABC6D3FDAEDA /* Pods_cacodemonsEscape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFA68D8CE697995494986CD /* Pods_cacodemonsEscape.framework */; };
 		9001F5E7271073E700C7B959 /* LoadPics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001F5E6271073E700C7B959 /* LoadPics.swift */; };
 		9001F5E9271079C300C7B959 /* HealthSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9001F5E8271079C300C7B959 /* HealthSystem.swift */; };
 		901139AE272077A8007E0CC9 /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901139AD272077A8007E0CC9 /* UIView+extensions.swift */; };
@@ -24,11 +25,15 @@
 		90C4DF492708BFC2000BC205 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C4DF482708BFC2000BC205 /* MainMenu.swift */; };
 		90C4DF4C2708BFC2000BC205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C4DF4A2708BFC2000BC205 /* Main.storyboard */; };
 		90C4DF512708BFC3000BC205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C4DF4F2708BFC3000BC205 /* LaunchScreen.storyboard */; };
+		90C87DFA2762378D00111355 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C87DF92762378D00111355 /* R.generated.swift */; };
+		90C87DFD276239C900111355 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C87DFF276239C900111355 /* Localizable.strings */; };
 		90F60170271F2262009E69A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F6016F271F2262009E69A4 /* Assets.xcassets */; };
 		90F60172271F2AB5009E69A4 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F60171271F2AB5009E69A4 /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EFA68D8CE697995494986CD /* Pods_cacodemonsEscape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cacodemonsEscape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D242D6BD3838C7E5ACDB2EC /* Pods-cacodemonsEscape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cacodemonsEscape.release.xcconfig"; path = "Target Support Files/Pods-cacodemonsEscape/Pods-cacodemonsEscape.release.xcconfig"; sourceTree = "<group>"; };
 		9001F5E6271073E700C7B959 /* LoadPics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPics.swift; sourceTree = "<group>"; };
 		9001F5E8271079C300C7B959 /* HealthSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthSystem.swift; sourceTree = "<group>"; };
 		901139AD272077A8007E0CC9 /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
@@ -48,8 +53,14 @@
 		90C4DF4B2708BFC2000BC205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90C4DF502708BFC3000BC205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90C4DF522708BFC3000BC205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C87DF92762378D00111355 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		90C87DFE276239C900111355 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		90C87E0027623E2500111355 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		90C87E0127623E2500111355 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		90C87E0227623E2600111355 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		90F6016F271F2262009E69A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F60171271F2AB5009E69A4 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		AC1CE939F60CF55B33CFF776 /* Pods-cacodemonsEscape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cacodemonsEscape.debug.xcconfig"; path = "Target Support Files/Pods-cacodemonsEscape/Pods-cacodemonsEscape.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +68,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F96EAE982FABC6D3FDAEDA /* Pods_cacodemonsEscape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CADBA8C909DDAFA651EA6FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFA68D8CE697995494986CD /* Pods_cacodemonsEscape.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		901139AF272077B0007E0CC9 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +106,8 @@
 			children = (
 				90C4DF432708BFC2000BC205 /* cacodemonsEscape */,
 				90C4DF422708BFC2000BC205 /* Products */,
+				9B737D3FDEC8C0868C08DFA3 /* Pods */,
+				0CADBA8C909DDAFA651EA6FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +125,8 @@
 				901139AF272077B0007E0CC9 /* extensions */,
 				9095592B271EC9ED00E9DBA0 /* fonts */,
 				90C4DF442708BFC2000BC205 /* AppDelegate.swift */,
+				90C87DF92762378D00111355 /* R.generated.swift */,
+				90C87DFF276239C900111355 /* Localizable.strings */,
 				90C4DF462708BFC2000BC205 /* SceneDelegate.swift */,
 				90C4DF482708BFC2000BC205 /* MainMenu.swift */,
 				9062A469271F91ED00751022 /* UserProfiles.swift */,
@@ -122,6 +146,15 @@
 			path = cacodemonsEscape;
 			sourceTree = "<group>";
 		};
+		9B737D3FDEC8C0868C08DFA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1CE939F60CF55B33CFF776 /* Pods-cacodemonsEscape.debug.xcconfig */,
+				1D242D6BD3838C7E5ACDB2EC /* Pods-cacodemonsEscape.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90C4DF552708BFC3000BC205 /* Build configuration list for PBXNativeTarget "cacodemonsEscape" */;
 			buildPhases = (
+				9A8D2F423F2641A9089BE304 /* [CP] Check Pods Manifest.lock */,
+				90C87DF82762375C00111355 /* ShellScript */,
 				90C4DF3D2708BFC2000BC205 /* Sources */,
 				90C4DF3E2708BFC2000BC205 /* Frameworks */,
 				90C4DF3F2708BFC2000BC205 /* Resources */,
+				CC9B3EEF7F4E147E875CB2F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +200,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 90C4DF382708BFC2000BC205;
 			productRefGroup = 90C4DF422708BFC2000BC205 /* Products */;
@@ -183,6 +220,7 @@
 				90C4DF512708BFC3000BC205 /* LaunchScreen.storyboard in Resources */,
 				90C4DF4C2708BFC2000BC205 /* Main.storyboard in Resources */,
 				901139B227207B94007E0CC9 /* EternalUiBold-jErYR.ttf in Resources */,
+				90C87DFD276239C900111355 /* Localizable.strings in Resources */,
 				90F60170271F2262009E69A4 /* Assets.xcassets in Resources */,
 				9095592D271ECA7400E9DBA0 /* EternalLogo-51X9B.ttf in Resources */,
 				901139B327207B94007E0CC9 /* EternalUiRegular-1Gap2.ttf in Resources */,
@@ -191,12 +229,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		90C87DF82762375C00111355 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		9A8D2F423F2641A9089BE304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cacodemonsEscape-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9B3EEF7F4E147E875CB2F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cacodemonsEscape/Pods-cacodemonsEscape-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cacodemonsEscape/Pods-cacodemonsEscape-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cacodemonsEscape/Pods-cacodemonsEscape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90C4DF3D2708BFC2000BC205 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9001F5E9271079C300C7B959 /* HealthSystem.swift in Sources */,
+				90C87DFA2762378D00111355 /* R.generated.swift in Sources */,
 				90C4DF492708BFC2000BC205 /* MainMenu.swift in Sources */,
 				9025A0EC2708CD3B00C95976 /* Track.swift in Sources */,
 				90C4DF452708BFC2000BC205 /* AppDelegate.swift in Sources */,
@@ -219,6 +319,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				90C4DF4B2708BFC2000BC205 /* Base */,
+				90C87E0027623E2500111355 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -227,8 +328,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				90C4DF502708BFC3000BC205 /* Base */,
+				90C87E0127623E2500111355 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90C87DFF276239C900111355 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C87DFE276239C900111355 /* en */,
+				90C87E0227623E2600111355 /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -238,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -299,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -352,6 +465,7 @@
 		};
 		90C4DF562708BFC3000BC205 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1CE939F60CF55B33CFF776 /* Pods-cacodemonsEscape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,6 +494,7 @@
 		};
 		90C4DF572708BFC3000BC205 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D242D6BD3838C7E5ACDB2EC /* Pods-cacodemonsEscape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

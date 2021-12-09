@@ -38,7 +38,7 @@ class Track: UIViewController {
         
         if let unwrapString = scoreLabel.text {
             scoreLabel.attributedText = setStylishText(
-                string: unwrapString,
+                string: R.string.localizable.gameplayScore() + "0",
                 font: "EternalLogo-Regular",
                 size: 23
             )
@@ -104,7 +104,7 @@ class Track: UIViewController {
         if let unwrapEarnScore = difficultySettings?.earnScore {
             score += unwrapEarnScore
         }
-        scoreLabel.text = "Score: \(score)"
+        scoreLabel.text = R.string.localizable.gameplayScore() + String(score)
     }
     
     func healthStatus() {
